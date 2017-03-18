@@ -1,11 +1,11 @@
 package PointOfSaleService;
 
 import DBManagement.H2JDBC;
+import DBManagement.Product;
 import DBManagement.SystemManagment;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.List;
 
 /**
  * Created by kalisiaczki on 17.03.2017.
@@ -23,7 +23,7 @@ public class Information {
         System.out.println("1. Insert Product parameters in fallowing column");
         System.out.println("2. Create sample of 3 different products database (id, name, price)");
         System.out.println("3. Scan product");
-        System.out.println("4. Submit scanned product and Exit");
+        System.out.println("4. Submit scanned product and Exit\n");
 
     }
 
@@ -45,4 +45,6 @@ public class Information {
 
         return dbConnection;
     }
+
+
 }

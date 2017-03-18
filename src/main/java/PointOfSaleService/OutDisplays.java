@@ -1,6 +1,5 @@
 package PointOfSaleService;
 
-import DBManagement.H2JDBC;
 import DBManagement.Product;
 
 import java.sql.*;
@@ -13,11 +12,11 @@ import java.util.*;
 
 public class OutDisplays {
 
-    public static List<Product> scannedProduct = new ArrayList<>();
-    public static List<Product> allProduct = new ArrayList<>();
+    public static List<Product> scannedProducts = new ArrayList<>();
+    public static List<Product> allProducts = new ArrayList<>();
 
 
-    public static void isItInDatabase (String firstColumnName, String secondColumnName, String thirdColumnName, int scannedId){
+    public static void isItInDatabase (String firstColumnName, String secondColumnName, String thirdColumnName){
 
         Connection connection = Information.makeDBConnection();
         Statement statement = null;
@@ -31,7 +30,7 @@ public class OutDisplays {
 
 
             while (rs.next()) {
-                allProduct.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
+                allProducts.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
             }
             rs.close();
 
@@ -57,7 +56,7 @@ public class OutDisplays {
 
     public static void scanProduct(String firstColumnName, String secondColumnName, String thirdColumnName, int scannedId) {
 
-        if(allProduct.stream().anyMatch(s->s.getCode()==scannedId)) {
+        if(allProducts.stream().anyMatch(s->s.getCode()==scannedId)) {
 
             Connection connection = Information.makeDBConnection();
             Statement statement = null;
@@ -72,7 +71,7 @@ public class OutDisplays {
 
                 while (rs.next()) {
 
-                    scannedProduct.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
+                    scannedProducts.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
 
                     int firstColumnScanedToDisplay = rs.getInt(firstColumnName);
                     String secondCoulmnScanedToDisplay = rs.getString(secondColumnName);
@@ -101,27 +100,31 @@ public class OutDisplays {
 
                 }
             }
-        }else
+        } else if (scannedId==0){
+            System.out.println("");
+        }
+
+        else
         {
-            System.out.println("errror");
+            System.out.println("Product not found");
         }
 
     }
 
     public static void exitDisplayAndCount ( String secondColumnName, String thirdColumnName){
 
-        if(scannedProduct.isEmpty()){
+        if(scannedProducts.isEmpty()){
 
             System.out.println("No product has been scanned!");
 
         }else{
 
-            for (Product product : scannedProduct) {
-                System.out.println(secondColumnName.toUpperCase() + " is " + product.getName() + " and the " + thirdColumnName.toUpperCase() + " is " + product.getPrice());
+            for (Product product : scannedProducts) {
+                System.out.println(secondColumnName.toUpperCase() + " of the product is " + product.getName() + " and the " + thirdColumnName.toUpperCase() + " is " + product.getPrice());
             }
-            int countPrice = scannedProduct.stream()
+            int countPrice = scannedProducts.stream()
                     .filter(c->c.getPrice()>0).mapToInt(Product::getPrice).sum();
-            System.out.println("Total price is: " + countPrice);
+            System.out.println("Total price of products is: " + countPrice);
 
         }
 

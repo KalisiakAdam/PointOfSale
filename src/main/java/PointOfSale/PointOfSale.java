@@ -53,11 +53,16 @@ public class PointOfSale {
                     break;
                 case 3:
                         System.out.println("Scan by this number: ");
-                    int idScanned = CodeScanner.readScan();
-                    OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName,idScanned);
-                    OutDisplays.scanProduct(firstColumnName,secondColumnName,thirdColumnName,idScanned);
-                    Information.welcome();
 
+                    OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName);
+                    int idScanned = CodeScanner.readScan();
+                   // if(CodeScanner.readScan()==0){
+
+                   // }
+                 //   else {
+                        OutDisplays.scanProduct(firstColumnName, secondColumnName, thirdColumnName, idScanned);
+                        Information.welcome();
+                //    }
                     break;
                 case 4:
                     OutDisplays.exitDisplayAndCount(secondColumnName,thirdColumnName);
