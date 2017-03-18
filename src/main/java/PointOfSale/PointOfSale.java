@@ -43,27 +43,26 @@ public class PointOfSale {
 
                     SystemManagment.insertProduct(idProduct,nameProduct,priceProduct,firstColumnName,secondColumnName,thirdColumnName);
                     SystemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
+                    Information.welcome();
 
                     break;
                 case 2:
                     SystemManagment.insertSample(firstColumnName,secondColumnName,thirdColumnName);
                     SystemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
+                    Information.welcome();
                     break;
                 case 3:
                         System.out.println("Scan by this number: ");
-                    int idScanned = CodeScanner.readInt();
+                    int idScanned = CodeScanner.readScan();
+                    OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName,idScanned);
                     OutDisplays.scanProduct(firstColumnName,secondColumnName,thirdColumnName,idScanned);
+                    Information.welcome();
 
                     break;
                 case 4:
+                    OutDisplays.exitDisplayAndCount(secondColumnName,thirdColumnName);
                     System.exit(0);
-
-
                     break;
-                case 5:
-
-                    break;
-
                 default:
                         System.out.println("Please choose a command number from the MENU below:");
                     Information.welcome();

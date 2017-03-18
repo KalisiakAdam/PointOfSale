@@ -38,20 +38,24 @@ public class CodeScanner {
         }
     }
 
-    public static boolean isItEmpty(int idScanned){
+    public static int readScan(){
 
-        StringBuilder sb = new StringBuilder();
-        sb.append("");
-        sb.append(idScanned);
-        String stringScanned = sb.toString();
+        Scanner in = new Scanner(System.in);
+        int numberFirst = 0;
+        String text = in.nextLine();
+        if(text.isEmpty()){
+            System.out.println("Invalid bar-code");
+            return numberFirst;
 
-        if(stringScanned != null && !stringScanned.trim().isEmpty()){
-            return false;
-        }else{
-            return true;
+        }else
+        {
+            int number = 0;
+            number = Integer.valueOf(text);
+            return number;
         }
 
-
     }
+
+
 
 }

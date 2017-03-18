@@ -21,7 +21,6 @@ public class SystemManagment {
             String createQuery = "CREATE TABLE PRODUCTS " + "( " + firstColumnName +" INTEGER primary key, " + secondColumnName + " varchar(255), " + thirdColumnName + " INTEGER)";
 
             statement.executeUpdate(createQuery);
-            System.out.println("Create table of products");
             statement.close();
             connection.close();
         } catch (SQLException se) {
@@ -41,7 +40,7 @@ public class SystemManagment {
             }
         }
 
-        System.out.println("Table with following column has been created: " + firstColumnName + ", " + secondColumnName + ", " +thirdColumnName +"\n");
+        System.out.println("\nTable with following column has been created: " + firstColumnName + ", " + secondColumnName + ", " +thirdColumnName +"\n");
     }
 
     public static void insertProduct(int id, String name, int price , String firstColumnName, String secondColumnName, String thirdColumnName){

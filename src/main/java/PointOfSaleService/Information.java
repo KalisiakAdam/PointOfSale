@@ -19,11 +19,11 @@ public class Information {
 
     public static void welcome(){
 
-        System.out.println("Please select number from 1 to 4 from menu:");
+        System.out.println("\nPlease select number from 1 to 4 from menu:");
         System.out.println("1. Insert Product parameters in fallowing column");
         System.out.println("2. Create sample of 3 different products database (id, name, price)");
         System.out.println("3. Scan product");
-        System.out.println("4. Exit");
+        System.out.println("4. Submit scanned product and Exit");
 
     }
 
