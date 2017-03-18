@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62c929c7-b51a-4f6e-a066-3aae5df76520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DBManagement/SystemManagment.class" afterPath="$PROJECT_DIR$/target/classes/DBManagement/SystemManagment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSale/PointOfSale.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSale/PointOfSale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSaleService/Information.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSaleService/Information.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSaleService/OutDisplays.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSaleService/OutDisplays.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointOfSale.iml" afterPath="$PROJECT_DIR$/PointOfSale.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java" afterPath="$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +33,9 @@
             <file leaf-file-name="PointOfSale.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="225">
-                    <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="45">
+                    <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -837,7 +820,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489605474995</updated>
-      <workItem from="1489605478351" duration="61403000" />
+      <workItem from="1489605478351" duration="61895000" />
     </task>
     <servers />
   </component>
@@ -862,7 +845,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61403000" />
+    <option name="totallyTimeSpent" value="61895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1192" height="1259" extended-state="0" />
@@ -1099,16 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1132,6 +1105,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
