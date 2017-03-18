@@ -9,7 +9,6 @@ import java.util.*;
  * Created by kalisiaczki on 15.03.2017.
  */
 
-
 public class OutDisplays {
 
     public static List<Product> scannedProducts = new ArrayList<>();
@@ -28,12 +27,11 @@ public class OutDisplays {
                     " FROM PRODUCTS";
             ResultSet rs = statement.executeQuery(sql);
 
-
             while (rs.next()) {
+
                 allProducts.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
             }
             rs.close();
-
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -42,16 +40,13 @@ public class OutDisplays {
                 if (statement != null) statement.close();
             }  catch (SQLException e) {
                 e.printStackTrace();
-
             }
             try {
                 if (connection != null) connection.close();
             } catch (SQLException se) {
                 se.printStackTrace();
-
             }
         }
-
     }
 
     public static void scanProduct(String firstColumnName, String secondColumnName, String thirdColumnName, int scannedId) {
@@ -68,7 +63,6 @@ public class OutDisplays {
                         " FROM PRODUCTS WHERE " + firstColumnName + " = " + scannedId;
                 ResultSet rs = statement.executeQuery(sql);
 
-
                 while (rs.next()) {
 
                     scannedProducts.add(new Product(rs.getInt(firstColumnName), rs.getString(secondColumnName), rs.getInt(thirdColumnName)));
@@ -81,7 +75,6 @@ public class OutDisplays {
                     System.out.println(secondColumnName + ": " + secondCoulmnScanedToDisplay);
                     System.out.println(thirdColumnName + ": " + thirdColumnScanedToDisplay);
                 }
-
                 rs.close();
 
             } catch (Exception e) {
@@ -91,32 +84,25 @@ public class OutDisplays {
                     if (statement != null) statement.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
-
                 }
                 try {
                     if (connection != null) connection.close();
                 } catch (SQLException se) {
                     se.printStackTrace();
-
                 }
             }
         } else if (scannedId==0){
             System.out.println("");
-        }
-
-        else
-        {
+        } else
+            {
             System.out.println("Product not found");
-        }
-
+            }
     }
 
     public static void exitDisplayAndCount ( String secondColumnName, String thirdColumnName){
 
         if(scannedProducts.isEmpty()){
-
             System.out.println("No product has been scanned!");
-
         }else{
 
             for (Product product : scannedProducts) {
@@ -124,13 +110,9 @@ public class OutDisplays {
             }
             int countPrice = scannedProducts.stream()
                     .filter(c->c.getPrice()>0).mapToInt(Product::getPrice).sum();
-            System.out.println("Total price of products is: " + countPrice);
-
+                System.out.println("Total price of the products is: " + countPrice);
         }
-
     }
-
-
 }
 
 

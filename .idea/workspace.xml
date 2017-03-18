@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c929c7-b51a-4f6e-a066-3aae5df76520" name="Default" comment="" />
+    <list default="true" id="62c929c7-b51a-4f6e-a066-3aae5df76520" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DBManagement/SystemManagment.class" afterPath="$PROJECT_DIR$/target/classes/DBManagement/SystemManagment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSale/PointOfSale.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSale/PointOfSale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSaleService/Information.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSaleService/Information.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PointOfSaleService/OutDisplays.class" afterPath="$PROJECT_DIR$/target/classes/PointOfSaleService/OutDisplays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointOfSale.iml" afterPath="$PROJECT_DIR$/PointOfSale.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java" afterPath="$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java" afterPath="$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +45,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="PointOfSale.java" pinned="false" current-in-tab="false">
+            <file leaf-file-name="PointOfSale.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="720">
-                    <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+                  <state relative-caret-position="225">
+                    <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -39,18 +57,55 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="OutDisplays.java" pinned="false" current-in-tab="true">
+            <file leaf-file-name="OutDisplays.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="830">
-                    <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+                  <state relative-caret-position="125">
+                    <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
-                      <marker date="1489872036000" expanded="true" signature="624:739" ph="SELECT missi... PRODUCTS" />
-                      <marker date="1489872036000" expanded="true" signature="1862:1987" ph="SELECT missi... PRODUCTS" />
-                      <marker date="1489872036000" expanded="true" signature="1862:1988" ph="SELECT missi... PRODUCTS" />
-                      <marker date="1489872036000" expanded="true" signature="1862:2013" ph="SELECT missi... PRODUCTS" />
-                      <marker date="1489872036000" expanded="true" signature="1862:2014" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489873165000" expanded="true" signature="623:738" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489873165000" expanded="true" signature="1857:1982" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489873165000" expanded="true" signature="1857:1983" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489873165000" expanded="true" signature="1857:2008" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489873165000" expanded="true" signature="1857:2009" ph="SELECT missi... PRODUCTS" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="SystemManagment.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="540">
+                    <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <marker date="1489872570000" expanded="true" signature="500:529" ph="CREATE TABLE... PRODUCTS" />
+                      <marker date="1489872570000" expanded="true" signature="500:644" ph="CREATE TABLE... PRODUCTS" />
+                      <marker date="1489872570000" expanded="true" signature="1742:1910" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="1742:1924" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="2748:2900" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="2748:2904" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="2748:2907" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="2748:2920" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="2995:3167" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="3239:3400" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="3239:3413" ph="INSERT INTO PRODUCTS... " />
+                      <marker date="1489872570000" expanded="true" signature="4223:4339" ph="SELECT missi... PRODUCTS" />
+                      <marker date="1489872570000" expanded="true" signature="4223:4342" ph="SELECT missi... " />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="CodeScanner.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="390">
+                    <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -64,48 +119,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SystemManagment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java">
+      <file leaf-file-name="ScannerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScannerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1489835426000" expanded="true" signature="500:529" ph="CREATE TABLE... PRODUCTS" />
-                <marker date="1489835426000" expanded="true" signature="500:644" ph="CREATE TABLE... PRODUCTS" />
-                <marker date="1489835426000" expanded="true" signature="1742:1910" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="1742:1924" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="2748:2900" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="2748:2904" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="2748:2907" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="2748:2920" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="2995:3167" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="3239:3400" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="3239:3413" ph="INSERT INTO PRODUCTS... " />
-                <marker date="1489835426000" expanded="true" signature="4224:4340" ph="SELECT missi... PRODUCTS" />
-                <marker date="1489835426000" expanded="true" signature="4224:4343" ph="SELECT missi... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Information.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Information.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeScanner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="130">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,6 +152,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -132,7 +165,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/CodeScanner.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b30244f6-94d0-4361-b989-acd777bad685/console.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/H2JDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/PointOfSale.java" />
@@ -146,11 +178,17 @@
         <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/PrinterManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBManagement/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/LCDManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java" />
         <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java" />
         <option value="$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java" />
         <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatabaseConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/shouldConnectToDatabase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ScannerTest.java" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -208,6 +246,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,6 +379,76 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="PointOfSale" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="shouldConnectToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PointOfSale" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="shouldConnectToDatabase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="shouldConnectToDatabase.connectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PointOfSale" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="shouldConnectToDatabase" />
+      <option name="METHOD_NAME" value="connectionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScannerTest.shouldBeEmpty" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PointOfSale" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScannerTest" />
+      <option name="METHOD_NAME" value="shouldBeEmpty" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -712,12 +824,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.PointOfSale" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.shouldConnectToDatabase" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.shouldConnectToDatabase.connectionTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ScannerTest.shouldBeEmpty" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.PointOfSale" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ScannerTest.shouldBeEmpty" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.shouldConnectToDatabase.connectionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.shouldConnectToDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -731,33 +849,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489605474995</updated>
-      <workItem from="1489605478351" duration="56312000" />
+      <workItem from="1489605478351" duration="60874000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DatabaseConnectionTest - 2017.03.18 at 22h 56m 43s.xml">
+      <configuration name="DatabaseConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseConnectionTest_connectionTest - 2017.03.18 at 22h 58m 00s.xml">
+      <configuration name="DatabaseConnectionTest.connectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseConnectionTest_connectionTest - 2017.03.18 at 23h 00m 53s.xml">
+      <configuration name="DatabaseConnectionTest.connectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseConnectionTest_connectionTest - 2017.03.18 at 23h 03m 03s.xml">
+      <configuration name="DatabaseConnectionTest.connectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseConnectionTest_connectionTest - 2017.03.18 at 23h 04m 19s.xml">
+      <configuration name="DatabaseConnectionTest.connectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest_shouldBeEmpty - 2017.03.18 at 23h 19m 27s.xml">
+      <configuration name="ScannerTest.shouldBeEmpty" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56312000" />
+    <option name="totallyTimeSpent" value="60874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1192" height="1259" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5167095" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24250214" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990575" sideWeight="0.50675243" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678664" sideWeight="0.4932476" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28449014" sideWeight="0.4932476" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990575" sideWeight="0.49570692" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32990575" sideWeight="0.49570692" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22521739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35217392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2226087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -781,14 +919,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
@@ -834,14 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -912,29 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1489835426000" expanded="true" signature="500:529" ph="CREATE TABLE... PRODUCTS" />
-            <marker date="1489835426000" expanded="true" signature="500:644" ph="CREATE TABLE... PRODUCTS" />
-            <marker date="1489835426000" expanded="true" signature="1742:1910" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="1742:1924" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="2748:2900" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="2748:2904" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="2748:2907" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="2748:2920" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="2995:3167" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="3239:3400" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="3239:3413" ph="INSERT INTO PRODUCTS... " />
-            <marker date="1489835426000" expanded="true" signature="4224:4340" ph="SELECT missi... PRODUCTS" />
-            <marker date="1489835426000" expanded="true" signature="4224:4343" ph="SELECT missi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -943,10 +1042,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        <state relative-caret-position="125">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1489873165000" expanded="true" signature="623:738" ph="SELECT missi... PRODUCTS" />
+            <marker date="1489873165000" expanded="true" signature="1857:1982" ph="SELECT missi... PRODUCTS" />
+            <marker date="1489873165000" expanded="true" signature="1857:1983" ph="SELECT missi... PRODUCTS" />
+            <marker date="1489873165000" expanded="true" signature="1857:2008" ph="SELECT missi... PRODUCTS" />
+            <marker date="1489873165000" expanded="true" signature="1857:2009" ph="SELECT missi... PRODUCTS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBManagement/SystemManagment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1489872570000" expanded="true" signature="500:529" ph="CREATE TABLE... PRODUCTS" />
+            <marker date="1489872570000" expanded="true" signature="500:644" ph="CREATE TABLE... PRODUCTS" />
+            <marker date="1489872570000" expanded="true" signature="1742:1910" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="1742:1924" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="2748:2900" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="2748:2904" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="2748:2907" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="2748:2920" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="2995:3167" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="3239:3400" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="3239:3413" ph="INSERT INTO PRODUCTS... " />
+            <marker date="1489872570000" expanded="true" signature="4223:4339" ph="SELECT missi... PRODUCTS" />
+            <marker date="1489872570000" expanded="true" signature="4223:4342" ph="SELECT missi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/shouldConnectToDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <marker date="1489874916000" expanded="true" signature="518:549" ph="CREATE TABLE... PRODUCTS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,33 +1123,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSale/PointOfSale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/OutDisplays.java">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1489872036000" expanded="true" signature="624:739" ph="SELECT missi... PRODUCTS" />
-            <marker date="1489872036000" expanded="true" signature="1862:1987" ph="SELECT missi... PRODUCTS" />
-            <marker date="1489872036000" expanded="true" signature="1862:1988" ph="SELECT missi... PRODUCTS" />
-            <marker date="1489872036000" expanded="true" signature="1862:2013" ph="SELECT missi... PRODUCTS" />
-            <marker date="1489872036000" expanded="true" signature="1862:2014" ph="SELECT missi... PRODUCTS" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/CodeScanner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PointOfSaleService/Information.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="130">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

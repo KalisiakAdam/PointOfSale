@@ -100,7 +100,6 @@ public class SystemManagment {
                     se.printStackTrace();
                 }
             }
-
     }
 
     public static void showProducts(String firstColumnName, String secondColumnName, String thirdColumnName){
@@ -140,7 +139,5 @@ public class SystemManagment {
                 se.printStackTrace();
             }
         }
-
     }
-
 }

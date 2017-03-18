@@ -13,8 +13,8 @@ import java.util.List;
 public class Information {
 
     public static void welcomeFirst(){
-        System.out.println("Welcom in Point of Sale Application");
-        System.out.println("First named three column of new Table!\n");
+        System.out.println("Welcome in Point of Sale application");
+        System.out.println("First please name three column of new Table!\n");
     }
 
     public static void welcome(){

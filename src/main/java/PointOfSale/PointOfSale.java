@@ -56,13 +56,9 @@ public class PointOfSale {
 
                     OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName);
                     int idScanned = CodeScanner.readScan();
-                   // if(CodeScanner.readScan()==0){
+                    OutDisplays.scanProduct(firstColumnName, secondColumnName, thirdColumnName, idScanned);
+                    Information.welcome();
 
-                   // }
-                 //   else {
-                        OutDisplays.scanProduct(firstColumnName, secondColumnName, thirdColumnName, idScanned);
-                        Information.welcome();
-                //    }
                     break;
                 case 4:
                     OutDisplays.exitDisplayAndCount(secondColumnName,thirdColumnName);
@@ -70,10 +66,10 @@ public class PointOfSale {
                     break;
                 default:
                         System.out.println("Please choose a command number from the MENU below:");
+
                     Information.welcome();
             }
         } while(true);
-
        }
     }
 
