@@ -26,9 +26,9 @@ Running application in Integrated Development Environment (IDE) like Eclipse, ID
 * Open and run PointOfSale MainClass.
 * Application running	 - „Welcome in Point of Sale application” information should appear.
 
-Running application on Commons Line (CMD) -Windows or Terminal - Apple.
+Running application on Commons Line (CMD) - Windows or Terminal - Apple.
 
-* Download LibraryApplication from GitHub: github.com/KalisiakAdam/PointOfSale.
+* Download PointOfSale from GitHub: github.com/KalisiakAdam/PointOfSale.
 * Extract files in your favorite location.
 * Open CMD or Terminal, change current working directory (cd) to target subdirectory in newly extracted files with PointOfSale project.
 * In /target directory run application by typing:
