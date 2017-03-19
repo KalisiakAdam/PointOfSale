@@ -15,13 +15,13 @@ public class PointOfSale {
 
         Information.welcomeFirst();
 
-            System.out.println("Please type first column name (e.g. id): ");
+            System.out.println("Please write down name for the first column which contains numerical data in Products Database (e.g. id or unique id): ");
             String firstColumnName = CodeScanner.readLine();
 
-            System.out.println("Please type second column name (e.g. name): ");
+            System.out.println("Please write down name for the second column which contains text data in Products Database (e.g. name or product name): ");
             String secondColumnName = CodeScanner.readLine();
 
-            System.out.println("Please type third column name (e.g. price): ");
+            System.out.println("Please write down name for the third column which contains numerical data in Products Database (e.g. price or product price): ");
             String thirdColumnName = CodeScanner.readLine();
 
         SystemManagment.createTable(firstColumnName,secondColumnName,thirdColumnName);
@@ -51,7 +51,7 @@ public class PointOfSale {
                     Information.welcome();
                     break;
                 case 3:
-                        System.out.println("Scan by this number: ");
+                        System.out.println("Scan products by this number: ");
 
                     OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName);
                     int idScanned = CodeScanner.readScan();
