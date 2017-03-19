@@ -9,7 +9,7 @@ import java.sql.*;
 public class Information {
 
     public static void welcomeFirst(){
-        System.out.println("Welcome in Point of Sale application");
+        System.out.println("Welcome to Point of Sale application");
         System.out.println("First please name three column of new Database with products specification!\n");
     }
 
