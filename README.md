@@ -21,7 +21,7 @@ Main functionalities are:
 
 Running application in Integrated Development Environment (IDE) like Eclipse, IDEA Intel, NetBeans.
 
-* Download or import LibraryApplication from GitHub: github.com/KalisiakAdam/PointOfSale.
+* Download or import PointOfSale from GitHub: github.com/KalisiakAdam/PointOfSale.
 * Open as a maven project.
 * Open and run PointOfSale MainClass.
 * Application running	 - „Welcome in Point of Sale application” information should appear.
