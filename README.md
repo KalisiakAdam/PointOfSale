@@ -5,14 +5,14 @@
 
 
 
-Point of Sale is application which gives opportunity to easily manage your products database at point of sale. 
-Main functionalities are:
+Point of Sale is an application which gives opportunity to easily manage your products database at the point of sale. 
+Main functionalities are the following:
 
-* Create table of products in in-memory database.
-* Add product to database.
-* Add sample of products to database.
-* Scan products per id.
-* Sum up all of the scanned products with total sum to be paid.
+* Creating table of products in in-memory database.
+* Adding product to database.
+* Adding sample of products to database.
+* Scanning products per ID.
+* Summing up all of the scanned products with total sum to be paid.
 
 
 # Getting Started
@@ -24,7 +24,7 @@ Running application in Integrated Development Environment (IDE) like Eclipse, ID
 * Download or import PointOfSale from GitHub: github.com/KalisiakAdam/PointOfSale.
 * Open as a maven project.
 * Open and run PointOfSale MainClass.
-* Application running	 - „Welcome in Point of Sale application” information should appear.
+* Application running	 - „Welcome to Point of Sale application” information should appear.
 
 Running application on Commons Line (CMD) - Windows or Terminal - Apple.
 
@@ -35,4 +35,4 @@ Running application on Commons Line (CMD) - Windows or Terminal - Apple.
 		
 			java -jar PointOfSale-1.0.jar
 
-* Application running	 - „Welcome in Point of Sale application” information should appear.
+* Application running	 - „Welcome to Point of Sale application” information should appear.
