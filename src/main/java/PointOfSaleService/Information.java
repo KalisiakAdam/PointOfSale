@@ -24,7 +24,6 @@ public class Information {
         System.out.println("2. Create sample of 3 different products database (id, name, price)");
         System.out.println("3. Scan product");
         System.out.println("4. Submit scanned product and Exit\n");
-
     }
 
     public static Connection makeDBConnection(){
@@ -45,6 +44,4 @@ public class Information {
 
         return dbConnection;
     }
-
-
 }
