@@ -1,11 +1,7 @@
 package PointOfSaleService;
 
 import DBManagement.H2JDBC;
-import DBManagement.Product;
-import DBManagement.SystemManagment;
-
 import java.sql.*;
-import java.util.List;
 
 /**
  * Created by kalisiaczki on 17.03.2017.
@@ -41,7 +37,6 @@ public class Information {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-
         return dbConnection;
     }
 }

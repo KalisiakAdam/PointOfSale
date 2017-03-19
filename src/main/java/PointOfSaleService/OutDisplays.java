@@ -110,7 +110,7 @@ public class OutDisplays {
             }
             int countPrice = scannedProducts.stream()
                     .filter(c->c.getPrice()>0).mapToInt(Product::getPrice).sum();
-                System.out.println("Total price of the products is: " + countPrice);
+                System.out.println("\nTotal price of the products is: " + countPrice);
         }
     }
 }

@@ -2,8 +2,6 @@ package PointOfSaleService;
 
 import java.util.Scanner;
 
-import static PointOfSaleService.OutDisplays.allProducts;
-
 /**
  * Created by kalisiaczki on 15.03.2017.
  */

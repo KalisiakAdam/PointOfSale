@@ -1,7 +1,6 @@
 package DBManagement;
 
 import PointOfSaleService.Information;
-
 import java.sql.*;
 
 /**

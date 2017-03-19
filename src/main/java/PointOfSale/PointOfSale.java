@@ -4,7 +4,6 @@ import DBManagement.SystemManagment;
 import PointOfSaleService.CodeScanner;
 import PointOfSaleService.Information;
 import PointOfSaleService.OutDisplays;
-
 import java.sql.*;
 
 /**
