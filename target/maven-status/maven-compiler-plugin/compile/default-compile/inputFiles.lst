@@ -1,7 +1,9 @@
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/DBManagement/SystemManagment.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/PointOfSaleService/CodeScanner.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/DBManagement/H2JDBC.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/PointOfSale/PointOfSale.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/DBManagement/Product.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/PointOfSaleService/OutDisplays.java
-/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/PointOfSaleService/Information.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/dbManagement/SystemManagment.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/pointOfSaleService/OutDisplays.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/pointOfSaleService/QueryDisplay.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/dbManagement/Product.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/dbManagement/NewConnection.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/pointOfSaleService/Information.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/pointOfSale/PointOfSale.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/dbManagement/H2JDBC.java
+/Users/kalisiaczki/Desktop/work/PointOfSale/src/main/java/pointOfSaleService/CodeScanner.java

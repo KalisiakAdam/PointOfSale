@@ -21,18 +21,18 @@ Main functionalities are the following:
 
 Running application in Integrated Development Environment (IDE) like Eclipse, IDEA Intel, NetBeans.
 
-* Download or import PointOfSale from GitHub: github.com/KalisiakAdam/PointOfSale.
+* Download or import pointOfSale from GitHub: github.com/KalisiakAdam/pointOfSale.
 * Open as a maven project.
-* Open and run PointOfSale MainClass.
+* Open and run pointOfSale MainClass.
 * Application running	 - „Welcome to Point of Sale application” information should appear.
 
 Running application on Commons Line (CMD) - Windows or Terminal - Apple.
 
-* Download PointOfSale from GitHub: github.com/KalisiakAdam/PointOfSale.
+* Download pointOfSale from GitHub: github.com/KalisiakAdam/pointOfSale.
 * Extract files in your favorite location.
-* Open CMD or Terminal, change current working directory (cd) to target subdirectory in newly extracted files with PointOfSale project.
+* Open CMD or Terminal, change current working directory (cd) to target subdirectory in newly extracted files with pointOfSale project.
 * In /target directory run application by typing:
 		
-			java -jar PointOfSale-1.0.jar
+			java -jar pointOfSale-1.0.jar
 
 * Application running	 - „Welcome to Point of Sale application” information should appear.

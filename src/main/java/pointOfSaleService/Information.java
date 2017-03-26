@@ -1,6 +1,6 @@
-package PointOfSaleService;
+package pointOfSaleService;
 
-import DBManagement.H2JDBC;
+import dbManagement.H2JDBC;
 import java.sql.*;
 
 /**
@@ -8,12 +8,12 @@ import java.sql.*;
  */
 public class Information {
 
-    public static void welcomeFirst(){
+    public void welcomeFirst(){
         System.out.println("Welcome to Point of Sale application");
         System.out.println("First please name three column of new Database with products specification!\n");
     }
 
-    public static void welcome(){
+    public void welcome(){
 
         System.out.println("\nPlease select number from 1 to 4 from menu:");
         System.out.println("1. Insert Product parameters in following column");
@@ -22,7 +22,7 @@ public class Information {
         System.out.println("4. Submit scanned product and Exit\n");
     }
 
-    public static Connection makeDBConnection(){
+    public Connection makeDBConnection(){
 
         Connection dbConnection = null;
         try{

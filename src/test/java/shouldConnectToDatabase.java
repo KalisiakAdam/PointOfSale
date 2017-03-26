@@ -1,4 +1,4 @@
-import PointOfSaleService.Information;
+import pointOfSaleService.Information;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,22 +12,23 @@ import java.sql.Statement;
 
 public class shouldConnectToDatabase {
 
+    Information information = new Information();
+
     @Before
     public void setup(){
-        Information.makeDBConnection();
+        information.makeDBConnection();
     }
-
 
     @Test
     public void connectionTest() throws SQLException {
 
-        Statement statement = Information.makeDBConnection().createStatement();
+        Statement statement = information.makeDBConnection().createStatement();
         statement.execute("CREATE TABLE PRODUCTS (id INT )");
         statement.close();
     }
 
     @After
     public void closeDown() throws Exception{
-         Information.makeDBConnection().close();
+         information.makeDBConnection().close();
     }
 }

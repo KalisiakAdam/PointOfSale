@@ -1,4 +1,4 @@
-package PointOfSaleService;
+package pointOfSaleService;
 
 import java.util.Scanner;
 

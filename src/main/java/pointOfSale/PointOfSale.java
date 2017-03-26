@@ -1,9 +1,9 @@
-package PointOfSale;
+package pointOfSale;
 
-import DBManagement.SystemManagment;
-import PointOfSaleService.CodeScanner;
-import PointOfSaleService.Information;
-import PointOfSaleService.OutDisplays;
+import dbManagement.SystemManagment;
+import pointOfSaleService.CodeScanner;
+import pointOfSaleService.Information;
+import pointOfSaleService.OutDisplays;
 import java.sql.*;
 
 /**
@@ -13,19 +13,23 @@ public class PointOfSale {
 
     public static void main(String[] args) throws SQLException {
 
-        Information.welcomeFirst();
+        Information information = new Information();
+        SystemManagment systemManagment = new SystemManagment();
+        OutDisplays outDisplays = new OutDisplays();
+
+            information.welcomeFirst();
 
             System.out.println("Please write down name for the first column which contains numerical data in Products Database (e.g. id or unique id): ");
-            String firstColumnName = CodeScanner.readLine();
+            final String firstColumnName = CodeScanner.readLine();
 
             System.out.println("Please write down name for the second column which contains text data in Products Database (e.g. name or product name): ");
-            String secondColumnName = CodeScanner.readLine();
+            final String secondColumnName = CodeScanner.readLine();
 
             System.out.println("Please write down name for the third column which contains numerical data in Products Database (e.g. price or product price): ");
-            String thirdColumnName = CodeScanner.readLine();
+            final String thirdColumnName = CodeScanner.readLine();
 
-        SystemManagment.createTable(firstColumnName,secondColumnName,thirdColumnName);
-        Information.welcome();
+            systemManagment.createTable(firstColumnName,secondColumnName,thirdColumnName);
+            information.welcome();
 
        do {
             int chosenMenu = CodeScanner.readInt();
@@ -40,23 +44,23 @@ public class PointOfSale {
                         System.out.println("Insert product " + thirdColumnName + " :");
                     int priceProduct = CodeScanner.readInt();
 
-                    SystemManagment.insertProduct(idProduct,nameProduct,priceProduct,firstColumnName,secondColumnName,thirdColumnName);
-                    SystemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
-                    Information.welcome();
+                    systemManagment.insertProduct(idProduct,nameProduct,priceProduct,firstColumnName,secondColumnName,thirdColumnName);
+                    systemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
+                    information.welcome();
 
                     break;
                 case 2:
-                    SystemManagment.insertSample(firstColumnName,secondColumnName,thirdColumnName);
-                    SystemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
-                    Information.welcome();
+                    systemManagment.insertSample(firstColumnName,secondColumnName,thirdColumnName);
+                    systemManagment.showProducts(firstColumnName,secondColumnName,thirdColumnName);
+                    information.welcome();
                     break;
                 case 3:
                         System.out.println("Scan products by this number: ");
 
-                    OutDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName);
+                    outDisplays.isItInDatabase(firstColumnName,secondColumnName,thirdColumnName);
                     int idScanned = CodeScanner.readScan();
-                    OutDisplays.scanProduct(firstColumnName, secondColumnName, thirdColumnName, idScanned);
-                    Information.welcome();
+                    outDisplays.scanProduct(firstColumnName, secondColumnName, thirdColumnName, idScanned);
+                    information.welcome();
 
                     break;
                 case 4:
@@ -66,7 +70,7 @@ public class PointOfSale {
                 default:
                         System.out.println("Please choose a command number from the MENU below:");
 
-                    Information.welcome();
+                    information.welcome();
             }
         } while(true);
        }

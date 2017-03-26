@@ -97,7 +97,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <mainClass>PointOfSale.PointOfSale</mainClass>
+                            <mainClass>pointOfSale.PointOfSale</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Class-Path>.</Class-Path>
